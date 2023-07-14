@@ -1,0 +1,12 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+STOP=1
+ 
+start() {        
+    /etc/init.d/tuya_for_esp_devices start
+}                 
+ 
+stop() {          
+    /etc/init.d/tuya_for_esp_devices stop
+}
